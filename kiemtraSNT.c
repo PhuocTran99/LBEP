@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 
 int main() {
        int n, checkSNT = 0;
@@ -7,7 +6,7 @@ int main() {
        scanf("%d", &n);
        if (n <= 1) printf("Day khong phai la SNT");
        else {
-              for (int i = 2; i <= sqrt(n); i++) {
+              for (int i = 2; i < n; i++) {
                      if (n%i == 0) {
                             printf("Day khong phai la SNT");
                             checkSNT = 1;
