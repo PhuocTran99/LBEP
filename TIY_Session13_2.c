@@ -16,7 +16,7 @@ int main() {
 			if ((*(animal+i)>=65 && *(animal+i)<=90) || (*(animal+i)>=97 && *(animal+i)<=122)) continue;
 			else {
 				printf("Please enter correctly!\n");
-				check = 0;
+				checkInput = 0;
 				break;
 			}
 		}
@@ -29,7 +29,7 @@ int main() {
 			if ((*(bird+i)>=65 && *(bird+i)<=90) || (*(bird+i)>=97 && *(bird+i)<=122)) continue;
 			else {
 				printf("Please enter correctly!\n");
-				check = 0;
+				checkInput = 0;
 				break;
 			}
 		}
