@@ -7,9 +7,8 @@ int main() {
 		printf(">> Input size of matrix A and matrix B (>0): ");
 		scanf("%d%d", &x, &y);
 	} while(x < 0 || y < 0);
-	int A[x][y], B[x][y];
-	int *p1 = A[0], *p2 = B[0];
-  
+	int A[x][y], B[x][y], *p1 = A[0], *p2 = B[0];
+
 	// Input matrix A
 	printf(">> Input matrix A:\n");
 	for (int i = 0; i < x; i++) {
